@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>C++ DevZone</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-3 logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo"> <a href="index.html"><img src="images/logooo.png.png" alt="#"></a> </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-9">
+                  <div class="menu-area">
+                     <div class="limit-box">
+                        <nav class="main-menu">
+                           <ul class="menu-area-main">
+                              <li ">
+                                 <a href="index.html">Inicio</a>
+                              </li>
+                              <li class="active">
+                                 <a href="about.html">Estructura</a>
+                              </li>
+                              <li>
+                                 <a href="marketing.html">Variables</a>
+                              </li>
+                              <li>
+                                 <a href="blog.html">Estructuras de control</a>
+                              </li>
+                              <li>
+                                 <a href="contact.html">Comentarios</a>
+                              </li>
+                              
+                           </ul>
+                        </nav>
+                     </div>   
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end header inner -->
+      </header>
+      <!-- end header -->
+     
+      <!-- section --> 
+<div class="About-bg">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="aboutheading">
+               <h3>Estructura de un programa en <span class="orange_color">C++</span></h3>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+
+      <div class="section layout_padding">
+         <div class="container">
+           
+            <div class="row">
+               <div class="col-md-6">
+                  <img src="images/programa.png" alt="#" />
+               </div>
+               
+               </style>
+               <div class="col-md-6">
+                  <div class="full blog_cont">
+                     <h4>Estructura de un programa</h4>
+                     <p>En la siguiente imagen se observa el código fuente utilizado para imprimir un mensaje en pantalla.</p><br>
+                     <h4>Explicacion de la Estructura</h4>
+                     <p style="text-align: justify;"><b>• Comentarios:</b> Todas las líneas que comienzan con los símbolos // indican un comentario. Estas líneas no tienen significado para el compilador, y no se ejecutan. Son ignoradas en el momento de compilación. Sin embargo, son útiles para el programador, quien las utiliza para entender el código y documentarlo.</p><br>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin_top_30">
+               <div class="col-md-6">
+                  <style>
+                     .code-container {
+                         display: grid;
+                         grid-template-columns: auto 1fr;
+                         padding: 2px;
+                         counter-reset: line;
+                         border-radius: 5px;
+                         background-color: #f4f4f4;
+                         border: 1px solid #ddd;
+                         overflow: auto;
+                     }
+                     
+                     .code-container span {
+                         display: block;
+                         padding: 4px 8px;
+                         margin: 2px 0;
+                     }
+                     
+                     .code-container .comment {
+                         color: #6a9955;
+                     }
+                     
+                     .code-container .keyword {
+                         color: #569cd6;
+                     }
+                     
+                     .code-container .string {
+                         color: #d69d85;
+                     }
+                     
+                     .code-container .function {
+                         color: #dcdcaa;
+                     }
+                     
+                     .code-container .constant {
+                         color: #b5cea8;
+                     }
+                     </style>
+                     <h4>Programa para imprimir un mensaje en pantalla</h4>
+                     <div class="code-container">
+                         <span class="comment">// Directivas de preprocesamiento</span><br>
+                         <span class="comment">// Inclusion de librerias para utilizar metodos y funciones predefinidas</span><br>
+                         <span class="keyword">#include &lt;iostream&gt;   </span> <br>
+                         <span class="comment">// Declaracion del espacio de nombres STD</span><br>
+                         <span class="keyword">using namespace std;</span> <br>
+                         <span class="comment">// Funcion principal del programa</span><br>
+                         <span class="keyword">int main () {</span><br>
+                             <span class="comment">// Uso del metodo cout para imprimir un mensaje</span><br>
+                             <span class="keyword">cout&lt;&lt;"Bienvenidos a mi primer programa"&lt;&lt;endl ;</span><br>
+                             <span class="comment">// Indica la terminacion exitosa del programa</span><br>
+                             <span class="keyword">return 0;<br>
+                         }
+                     </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="full blog_cont">
+                     <p style="text-align: justify;"><b>• Directivas de procedimientos: </b><span style="color:rgb(86, 202, 225)">#include &lt;iostream&gt; </span>Todas las instrucciones en C++ que comienzan con el símbolo #  se utilizan para indicar las directivas de preprocesamiento. En este caso se está incluyendo una librería. Por eso se utiliza la palabra include, seguido del nombre de la librería entre los símbolos <  >. Una librería es un archivo con terminación .h el cual contiene métodos que pueden ser utilizados por el programador.
+                        Las librerias más utilizadas en C++ son la iostream y cstdio, ambas son útiles para leer y escribir a la consola de ejecución. Recuerda siempre incluir la librería iostream al principio de cada uno de tus programas para poder utilizar las instrucciones cin y cout.</p>      
+                        <p style="text-align: justify;"><b>• Uso de espacios de nombres: </b><span style="color:rgb(86, 202, 225)">using namespace std;</span> Esta instrucción se requiere para indicar al compilador que se están usando métodos bajo el espacio de nombres STD, de lo contrario el compilador no entiende los métodos. </span></p>
+                   </div>
+               </div>
+            </div>
+
+            <div class="row margin_top_30">
+               <div class="col-md-6">
+                  <style>
+                     .code-container {
+                         display: grid;
+                         grid-template-columns: auto 1fr;
+                         padding: 2px;
+                         counter-reset: line;
+                         border-radius: 5px;
+                         background-color: #f4f4f4;
+                         border: 1px solid #ddd;
+                         overflow: auto;
+                     }
+                     
+                     .code-container span {
+                         display: block;
+                         padding: 4px 8px;
+                         margin: 2px 0;
+                     }
+                     
+                     
+                     .code-container .keyword {
+                         color: #569cd6;
+                     }
+                     
+                     .code-container .string {
+                         color: #d69d85;
+                     }
+                     
+                     .code-container .function {
+                         color: #dcdcaa;
+                     }
+                     
+                     .code-container .constant {
+                         color: #b5cea8;
+                     }
+                     </style>
+                     <h4>Programa para imprimir un mensaje en pantalla</h4>
+                     <div class="code-container">
+                         <span class="keyword">#include &lt;iostream&gt;   </span> <br><br>
+                         <span class="keyword">using namespace std;</span> <br>
+                         <span class="keyword">int main () {</span><br>
+                             <span style="color:#6a9955">cout&lt;&lt;"Hola, estudiantes de nivelacion de la carrera de TICS"&lt;&lt;endl; </span><br>
+                             <span style="color:#6a9955">cout&lt;&lt;"Bienvenidos al mundo de la programacion en C++"&lt;&lt;endl;</span><br>
+                             <span style="color:#6a9955">cout&lt;&lt;"Les deseamos mucho exito en su viaje de aprendizaje"&lt;&lt;endl;</span><br>
+                             <span class="keyword">return 0;<br>
+                         }
+                     </div>
+                    
+               </div>
+               <div class="col-md-6">
+                  <div class="full blog_cont">
+                     <p style="text-align: justify;"><b>• Funcion principal: </b>Un programa en C++ contiene métodos y funciones, los cuales se utilizan para ejecutar segmentos de código. La función principal se conoce como main().</p>
+                     <p style="text-align: justify;"><b> La estructura es: </b></p>
+
+                     <style>
+                        .code-container {
+                            display: grid;
+                            grid-template-columns: auto 1fr;
+                            padding: 2px;
+                            counter-reset: line;
+                            border-radius: 5px;
+                            background-color: #f4f4f4;
+                            border: 1px solid #ddd;
+                            overflow: auto;
+                        }
+                        
+                        .code-container span {
+                            display: block;
+                            padding: 4px 8px;
+                            margin: 2px 0;
+                        }
+                        
+                        .code-container .comment {
+                            color: #6a9955;
+                        }
+                        
+                        .code-container .keyword {
+                            color: #569cd6;
+                        }
+                        
+                        .code-container .string {
+                            color: #d69d85;
+                        }
+                        
+                        .code-container .function {
+                            color: #dcdcaa;
+                        }
+                        
+                        .code-container .constant {
+                            color: #b5cea8;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="code-container">
+                        <span class="keyword">int main() {</span><br>
+                        <span class="comment">//Conjunto de instrucciones</span><br>
+                        <span class="keyword">    return 0;</span><br>
+                        <span class="keyword">}</span>
+                    </div>
+                  </div>
+                  <p style="text-align: justify;">• La sentencia int main() indica la declaración de la función. La palabra int al principio de la función indica que se espera que al terminar la función regrese un valor entero.</p>
+               </div>
+            </div>
+            <p style="text-align: justify;"><b>Programa Ejecutado</p></b>
+            <div class="row margin_top_30">
+               
+               <div class="col-md-6">
+                  <img src="images/ejecucion.png" alt="#" />
+               </div>
+               <div class="col-md-6">
+                  <div class="full blog_cont">
+                     <p style="text-align: justify;"><b>• Instrucciones: </b>Una instrucción en C++ se identifica por que siempre con el símbolo de ; Una instrucción indica a la computadora que se debe realizar una acción.</p>
+                     <p style="text-align: justify;">Ejemplos de instrucciones:</p>
+
+                  
+                  </div>
+               </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="row margin_top_30">
+               <div class="col-md-12">
+                  <div class="button_section full center margin_top_30">
+                     <a style="margin:0;" href="about.html">Leer más</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end section -->
+     
+      <!-- footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-md-6">
+                  <a href="#"><img src="images/logooo.png.png" alt="#" /></a>
+                  <ul class="contact_information">
+                     <li><span><img src="images/location_icon.png" alt="#" /></span><span class="text_cont">Riobamba<br>Ecuador</span></li>
+                     <li><span><img src="images/phone_icon.png" alt="#" /></span><span class="text_cont">987 654 3210<br>987 654 3210</span></li>
+                     <li><span><img src="images/mail_icon.png" alt="#" /></span><span class="text_cont">kr123330@gmail.com</span></li>
+                  </ul>
+                  <ul class="social_icon">
+                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+               </div>
+               
+               <div class="col-lg-3 col-md-6">
+                  <div class="footer_links">
+                     <h3>Contactanos</h3>
+                     <form action="index.html">
+                        <fieldset>
+                           <div class="field">
+                              <input type="text" name="name" placeholder="Nombre" required="" />
+                           </div>
+                           <div class="field">
+                              <input type="email" name="email" placeholder="Email" required="" />
+                           </div>
+                           <div class="field">
+                              <textarea placeholder="Mensaje"></textarea>
+                           </div>
+                           <div class="field">
+                              <div class="center">
+                                 <button class="reply_bt">Enviar</button>
+                              </div>
+                           </div>
+                        </fieldset>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="cpy">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p>Copyright © 2019 Design by <a href="https://html.design/">Free Html Templates</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- Scrollbar Js Files -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
